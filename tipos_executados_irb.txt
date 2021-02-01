@@ -1,0 +1,51 @@
+# Tipos de dados executados no irb:
+
+irb(main):001:0> int = 5
+=> 5
+irb(main):002:0> int.class
+=> Integer
+irb(main):003:0> string = "teste"
+=> "teste"
+irb(main):004:0> string.class
+=> String
+irb(main):005:0> float = 10.001
+=> 10.001
+irb(main):006:0> float.class
+=> Float
+irb(main):007:0> bool = true
+=> true
+irb(main):008:0> bool.class
+=> TrueClass
+irb(main):009:0> boo = false
+=> false
+irb(main):010:0> boo.class
+=> FalseClass
+irb(main):011:0> array = [1,2,3,5]
+=> [1, 2, 3, 5]
+irb(main):012:0> array.class
+=> Array
+irb(main):013:0> array[3]
+=> 5
+irb(main):014:0> simbolo = :symbol_test
+=> :symbol_test
+irb(main):015:0> simbolo.class
+=> Symbol
+irb(main):016:0> 
+irb(main):017:0> simbolo.object_id
+=> 1494108
+irb(main):018:0> 
+irb(main):018:0> hash_test = {hash1: '1', hash2: '2', hash: '3'}
+=> {:hash1=>"1", :hash2=>"2", :hash=>"3"}
+irb(main):019:0> hash_test.class
+=> Hash
+irb(main):020:0> hash_test[:hash]
+=> "3"
+irb(main):021:0> dinamic = 2
+=> 2
+irb(main):022:0> dinamic.class
+=> Integer
+irb(main):023:0> dinamic = 'string'
+=> "string"
+irb(main):024:0> dinamic.class
+=> String
+irb(main):025:0> 
