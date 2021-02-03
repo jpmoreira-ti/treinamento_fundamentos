@@ -4,8 +4,10 @@ meu_array = []
 
 3.times do |i|
     puts "Insira o numero #{i+1} do array:"
-    num = gets.chomp.to_i
-    meu_array.push(num)
+    meu_array.push(gets.chomp.to_i)
 end
 
-puts "Os dados do meu array são: #{meu_array}"
+meu_array.each do |a|
+    result = a ** 2
+    puts "O resultado do número #{a} elevado a segunda potência é #{result}"
+end
