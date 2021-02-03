@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 result = ''
 loop do
-  puts ''  
-  puts 'Calculadora:'  
+  puts ''
+  puts 'Calculadora:'
   puts 'Selecione uma das seguintes opções'
   puts '1 - Soma'
   puts '2 - Subtracao'
@@ -9,11 +11,11 @@ loop do
   puts '4 - Divisao'
   puts '0 - Sair'
   print 'Opção: '
-  
+
   option = gets.chomp.to_i
-  
-  case option 
-  when 0 
+
+  case option
+  when 0
     break
   when 1
     puts 'Digite o primeiro numero: '
@@ -39,7 +41,7 @@ loop do
     puts 'Digite o segundo numero: '
     num2 = gets.chomp.to_i
     result = num1 / num2
-  else 
+  else
     puts 'Opção inválida'
   end
   puts "'O resultado da operacao é: #{result}'"

@@ -1,7 +1,9 @@
-print "Digite o primeiro numero: "
+# frozen_string_literal: true
+
+print 'Digite o primeiro numero: '
 num1 = gets.chomp.to_i
- 
-print "Digite o segundo numero: "
+
+print 'Digite o segundo numero: '
 num2 = gets.chomp.to_i
 
 soma = num1 + num2
