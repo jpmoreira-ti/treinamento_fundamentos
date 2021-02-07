@@ -17,5 +17,6 @@
 ## Classes e require_relative.
 # Aula008 
 ## Modules e capitalize.
-# Aula009 - 
+# Aula009
+## Regex e calculo de kilometragem.
 # Projeto Final - 
