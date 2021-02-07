@@ -13,4 +13,5 @@ class Carro
   end
 end
 
-carro = Carro.new.get_km('Um fusca de cor amarela viaja a 80km/h ')
+carro = Carro.new
+carro.get_km('Um fusca de cor amarela viaja a 80km/h ')
