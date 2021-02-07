@@ -3,6 +3,7 @@
 class Mercado < Produto
   def initialize(produto)
     @produto = produto
+    super()
   end
 
   def comprar
