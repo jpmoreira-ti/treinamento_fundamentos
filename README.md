@@ -18,5 +18,5 @@
 # Aula008 
 ## Modules e capitalize.
 # Aula009
-## Regex e calculo de kilometragem.
+## Regex.
 # Projeto Final - 
