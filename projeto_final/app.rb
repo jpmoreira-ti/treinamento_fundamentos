@@ -8,7 +8,7 @@ idioma_atual = gets.chomp
 print 'Digite o texto que deseja traduzir: '
 texto = gets.chomp
 
-print 'Digite o idioma que deseja traduzir o texto: '
+print 'Digite o idioma para o qual deseja traduzir o texto: '
 idioma_novo = gets.chomp
 
 traducao = Tradutor.new
